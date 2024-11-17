@@ -18,7 +18,7 @@ const page = () => {
                       <p className='text-sm text-slate-600'>Price :</p>
                       <p className='text-sm text-slate-600'>Day- ₹{item.day}</p>
                       <p className='text-sm text-slate-600'>Night- ₹{item.night}</p>
-                      <p className='text-sm text-slate-600'>Full Day- ₹{item.full}</p>
+                      <p className='text-sm text-slate-600'>Stay Price- ₹{item.full}</p>
                     </div>
                 <Link href={`/details/${item?.room_name}/${item?.day}/${item?.night}/${item?.full}`} className='flex justify-center items-center bg-prime rounded-lg py-2 px-6 md:w-1/3 font-semibold'>Book Now</Link>
                 </div>
