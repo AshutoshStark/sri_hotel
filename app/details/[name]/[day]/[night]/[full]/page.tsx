@@ -16,9 +16,9 @@ const page = () => {
   const [number,setNumber] = useState<string>('')
 
 
-  let priced = day.replace('%2C','') 
-  let pricen = night.replace('%2C','') 
-  let pricef = full.replace('%2C','') 
+  let priced = day!.replace('%2C','') 
+  let pricen = night!.replace('%2C','') 
+  let pricef = full!.replace('%2C','') 
 
   const pricecal =()=>{
 
