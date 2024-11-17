@@ -9,7 +9,7 @@ export const booking = [
     },
     {
         room_name: "Luxury Suite",
-        room_img: "/hotel room/luxurysuite.jpg",
+        room_img: "/hotel room/1.png",
         dis: "Spacious luxury suite with king-sized bed, modern decor, private balcony, and a jacuzzi tub.",
         day: "3,000",
         night: "3,500",
@@ -17,7 +17,7 @@ export const booking = [
     },
     {
         room_name: "Family Room",
-        room_img: "/hotel room/familyroom.jpg",
+        room_img: "/hotel room/2.png",
         dis: "Perfect for families, featuring two queen beds, kids' play corner, and a kitchenette.",
         day: "2,500",
         night: "2,800",
@@ -25,7 +25,7 @@ export const booking = [
     },
     {
         room_name: "Executive Room",
-        room_img: "/hotel room/executiveroom.jpg",
+        room_img: "/hotel room/3.png",
         dis: "Modern executive room with work desk, high-speed Wi-Fi, and ergonomic seating.",
         day: "2,000",
         night: "2,500",
@@ -33,7 +33,7 @@ export const booking = [
     },
     {
         room_name: "Vintage Room",
-        room_img: "/hotel room/vintageroom.jpg",
+        room_img: "/hotel room/4.png",
         dis: "Classic room with vintage decor, antique furniture, and a homely vibe.",
         day: "1,800",
         night: "2,000",
@@ -41,7 +41,7 @@ export const booking = [
     },
     {
         room_name: "Poolside Room",
-        room_img: "/hotel room/poolside.jpg",
+        room_img: "/hotel room/5.png",
         dis: "Room with direct pool access, private terrace, and tropical decor.",
         day: "2,200",
         night: "2,500",
@@ -49,7 +49,7 @@ export const booking = [
     },
     {
         room_name: "Deluxe Room",
-        room_img: "/hotel room/deluxe.jpg",
+        room_img: "/hotel room/6.png",
         dis: "Deluxe room with a city view, plush bed, and a fully stocked minibar.",
         day: "2,400",
         night: "2,800",
@@ -57,7 +57,7 @@ export const booking = [
     },
     {
         room_name: "Honeymoon Suite",
-        room_img: "/hotel room/honeymoon.jpg",
+        room_img: "/hotel room/7.png",
         dis: "Romantic suite with rose-themed interiors, private hot tub, and mood lighting.",
         day: "3,500",
         night: "4,000",
@@ -65,7 +65,7 @@ export const booking = [
     },
     {
         room_name: "Eco-Friendly Room",
-        room_img: "/hotel room/eco.jpg",
+        room_img: "/hotel room/8.png",
         dis: "Sustainable design with energy-efficient appliances and bamboo furniture.",
         day: "1,600",
         night: "1,900",
@@ -73,7 +73,7 @@ export const booking = [
     },
     {
         room_name: "Penthouse Suite",
-        room_img: "/hotel room/penthouse.jpg",
+        room_img: "/hotel room/9.png",
         dis: "Top-floor penthouse with panoramic views, rooftop garden, and private bar.",
         day: "5,000",
         night: "6,000",
@@ -81,7 +81,7 @@ export const booking = [
     },
     {
         room_name: "Minimalist Room",
-        room_img: "/hotel room/minimalist.jpg",
+        room_img: "/hotel room/10.png",
         dis: "Minimalist design with clean lines, neutral tones, and open space.",
         day: "1,700",
         night: "2,000",
@@ -89,7 +89,7 @@ export const booking = [
     },
     {
         room_name: "Business Suite",
-        room_img: "/hotel room/business.jpg",
+        room_img: "/hotel room/11.png",
         dis: "Suite tailored for business travelers with meeting space, printer, and video conferencing tools.",
         day: "3,000",
         night: "3,500",
@@ -97,7 +97,7 @@ export const booking = [
     },
     {
         room_name: "Ocean View Room",
-        room_img: "/hotel room/oceanview.jpg",
+        room_img: "/hotel room/12.png",
         dis: "Room with stunning ocean views, floor-to-ceiling windows, and a breezy balcony.",
         day: "2,800",
         night: "3,200",
@@ -105,7 +105,7 @@ export const booking = [
     },
     {
         room_name: "Artistic Room",
-        room_img: "/hotel room/artistic.jpg",
+        room_img: "/hotel room/13.png",
         dis: "Art-inspired room with murals, artistic furniture, and a cozy reading nook.",
         day: "1,900",
         night: "2,200",
@@ -113,7 +113,7 @@ export const booking = [
     },
     {
         room_name: "Cabana Room",
-        room_img: "/hotel room/cabana.jpg",
+        room_img: "/hotel room/14.png",
         dis: "Beachside cabana-style room with tropical vibes, hammock, and private lounge.",
         day: "2,600",
         night: "3,000",
@@ -121,7 +121,7 @@ export const booking = [
     },
     {
         room_name: "Loft Room",
-        room_img: "/hotel room/loft.jpg",
+        room_img: "/hotel room/15.png",
         dis: "Stylish loft with high ceilings, industrial decor, and cityscape views.",
         day: "2,200",
         night: "2,500",
@@ -129,7 +129,7 @@ export const booking = [
     },
     {
         room_name: "Royal Suite",
-        room_img: "/hotel room/royalsuite.jpg",
+        room_img: "/hotel room/16.png",
         dis: "Grand suite with royal decor, four-poster bed, private butler service, and gold accents.",
         day: "6,000",
         night: "7,500",
@@ -137,7 +137,7 @@ export const booking = [
     },
     {
         room_name: "Themed Room",
-        room_img: "/hotel room/themed.jpg",
+        room_img: "/hotel room/17.png",
         dis: "Themed room with unique decor like jungle, space, or retro designs.",
         day: "2,000",
         night: "2,400",
@@ -145,7 +145,7 @@ export const booking = [
     },
     {
         room_name: "Skyline Suite",
-        room_img: "/hotel room/skyline.jpg",
+        room_img: "/hotel room/18.png",
         dis: "Luxury suite with panoramic city skyline views and premium amenities.",
         day: "4,000",
         night: "5,000",
@@ -153,7 +153,7 @@ export const booking = [
     },
     {
         room_name: "Pet-Friendly Room",
-        room_img: "/hotel room/petfriendly.jpg",
+        room_img: "/hotel room/19.png",
         dis: "Comfortable room with pet beds, toys, and an outdoor pet play area.",
         day: "1,800",
         night: "2,200",
