@@ -10,8 +10,8 @@ const Navbar = () => {
   console.log(pathname)
   return (
     <div className='text-2xl text-othertext font-semibold flex gap-14 items-center justify-between'>
-      <Link href={'/'}>
-        <img src="/loog.png" alt="" />
+      <Link href={'/'} className='font-serif text-3xl'>
+        Sri
       </Link>
       <div className='flex gap-11 items-center'>
       <Link href={'/'} className={pathname === '/'? 'decoration-1 text-prime underline underline-offset-[12px] underline-prime' : ''}>Home</Link>

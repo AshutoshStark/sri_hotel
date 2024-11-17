@@ -8,7 +8,7 @@ const FandQ = () => {
     const [toggle,setToggle] = useState<number>(0)
 
   return (
-    <div className='flex flex-col md:flex-row gap-6 md:gap-0 justify-between items-center'>
+    <div className='flex flex-col md:flex-row gap-6 md:gap-0 justify-between items-center h-screen'>
       <div>
         <p className='text-4xl font-semibold text-prime'>FREQUENTLY ASKED <br /> QUESTIONS</p>
         <p className='text-xl'>Quick answers to questions you may have. Can’t find what <br /> you're looking for? <br />Check out our full documentation</p>

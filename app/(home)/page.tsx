@@ -16,8 +16,8 @@ export default function Home() {
       <TravelPage/>
       <Monetization/>
       <Influencers/>
-      <Cards/>
-      <FandQ/>
+      {/* <Cards/> */}
+      {/* <FandQ/> */}
     </div>
   );
 }
