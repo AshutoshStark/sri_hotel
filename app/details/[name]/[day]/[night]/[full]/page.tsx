@@ -29,7 +29,7 @@ const page = () => {
   if (typeof night === 'string') {
     pricen = night.replace('%2C', '');
   } else {
-    throw new Error("Invalid type for 'night'. Expected a string.");
+    throw new Error("Invalid  type for 'night'. Expected a string.");
   }
   
   if (typeof full === 'string') {
@@ -69,7 +69,7 @@ const page = () => {
       <input type="text" name="" id="" className='bg-transparent border border-gray-700 rounded-md py-2 px-6' placeholder='Your Name' onChange={(e:any)=>setName(e.target.value)}/>
       <input type="text" name="" id="" className='bg-transparent border border-gray-700 rounded-md py-2 px-6' placeholder='Email' onChange={(e:any)=>setMail(e.target.value)}/>
       <input type="text" name="" id="" className='bg-transparent border border-gray-700 rounded-md py-2 px-6' placeholder='Number' onChange={(e:any)=>setNumber(e.target.value)}/>
-      <p>Room Name : {decodeURI(name)}</p>
+      <p>Room Name : {name && typeof name === "string" ? decodeURI(name) : "Unknown"}</p>
       <p>Day Price : {priced}</p>
       <p>Night Price : {pricen}</p>
       <p>Stay Price : {pricef}</p>
