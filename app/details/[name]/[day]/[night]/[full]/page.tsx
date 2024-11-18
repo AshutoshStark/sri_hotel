@@ -37,7 +37,7 @@ const page = () => {
     pricef = Number(pricef)
 
   } else {
-    throw new Error("Invalid type  for 'full'. Expected a string.");
+    throw new Error("Invalid type for 'full'. Expected a string.");
   }
 
   const pricecal =()=>{
