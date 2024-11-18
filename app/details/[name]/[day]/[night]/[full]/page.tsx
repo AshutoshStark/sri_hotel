@@ -29,7 +29,7 @@ const page = () => {
   if (typeof night === 'string') {
     pricen = night.replace('%2C', '');
   } else {
-    throw new Error("Invalid type for 'night'. Expected a string.");
+    throw new Error("Invalid  type for 'night'. Expected a string.");
   }
   
   if (typeof full === 'string') {
