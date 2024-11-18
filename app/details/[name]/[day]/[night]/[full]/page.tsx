@@ -35,9 +35,9 @@ const page = () => {
   if (typeof full === 'string') {
     pricef = full.replace('%2C', '');
   } else {
-    throw new Error("Invalid type for 'full'. Expected a string.");
+    throw new Error("Invalid type  for 'full'. Expected a string.");
   }
-  
+
   const pricecal =()=>{
 
     let p
