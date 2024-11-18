@@ -16,9 +16,9 @@ const page = () => {
   const [number,setNumber] = useState<string>('')
 
 
-  let priced: string;
-  let pricen: string;
-  let pricef: string;
+  let priced: any;
+  let pricen: any;
+  let pricef: any;
 
   if (typeof day === 'string') {
     priced = day.replace('%2C', '');
@@ -34,8 +34,10 @@ const page = () => {
   
   if (typeof full === 'string') {
     pricef = full.replace('%2C', '');
+    pricef = Number(pricef)
+
   } else {
-    throw new Error("Invalid type  for 'full'. Expected a string.");
+    throw new Error("Invalid type for 'full'. Expected a string.");
   }
 
   const pricecal =()=>{
