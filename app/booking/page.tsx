@@ -12,7 +12,7 @@ const page = () => {
                 <img src={item.room_img} alt="" className='md:w-1/3 rounded-lg object-cover shadow-gray-800 shadow-md' />
                 <div className='w-full flex flex-col gap-4'>
                     <p className='text-xl font-semibold'>{item.room_name}</p>
-                    <p className='text-lg text-slate-500'>Discription :</p>
+                    <p className='text-lg text-slate-500'>Description :</p>
                     <p className='text-sm  text-slate-500 md:w-2/5'>{item.dis}</p>
                     <div>
                       <p className='text-sm text-slate-600'>Price :</p>
